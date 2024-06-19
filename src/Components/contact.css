@@ -1,0 +1,5 @@
+.contact-background {
+    background-image: url('images/image1.png'); /* Replace 'your-background-image-url.jpg' with the URL of your background image */
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,139 @@
+#HeaderEditor {
+    color: rgb(1, 1, 20);
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+  }
+  
+  #btnRun {
+    position: relative;
+    right: 343px;
+    top: 80px;
+    background-image: linear-gradient(90deg, #0AE0FF, #9900FB);
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+  }
+  
+  #tags {
+    position: relative;
+    right: 330px;
+    top: 80px;
+  
+    border-radius: 30px;
+    padding: 5px;
+    background-image: linear-gradient(90deg, #0AE0FF, #9900FB);
+  
+  }
+  
+  .language {}
+  
+  #outputHeader {
+    position: relative;
+    right: 15vw;
+  
+  }
+  
+  .heading {
+  
+    position: relative;
+  
+  
+  }
+  
+  #source {
+    background-image: linear-gradient(90deg, #0269df, #0269df);
+    margin-right: 378px;
+    height: 51vh;
+    width: 40vw;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: #00061452;
+    border: solid 2px rgb(0, 109, 168);
+    
+  
+  }
+  
+  #input {
+    position: relative;
+    right: 242px;
+    bottom: 445px;
+    width: 40vw;
+    height: 13vh;
+    background-image: linear-gradient(90deg, #0269df,#0269df);
+  
+    border-radius: 10px;
+  
+    border: solid 2px rgb(0, 109, 168);
+  
+  
+  }
+  
+  #userHeader {
+    position: relative;
+    bottom: 30vh;
+    right: 30vw;
+  }
+  
+  #output {
+    position: relative;
+    font-size: large;
+    left: 300px;
+    bottom: 390px;
+    width: 25vw;
+    height: 56vh;
+    background-image: linear-gradient(90deg,#0269df, #015fcb);
+    border-radius: 10px;
+    box-shadow: #00061452;
+    border: solid 2px rgb(0, 109, 168);
+  
+  }
+  
+  .language {}
+  
+  
+  @media screen and (max-width: 6.43in) {
+    #source {
+    height: 44vh;
+    width: 42vh;
+    margin-left: 6vw;
+    }
+  
+    #input{
+      width: 82vw;
+      height: 10vh;
+      position: relative;
+      right: 2px;
+      bottom: 200px;
+   
+  
+    }
+    #output{
+      position: relative;
+      font-size: large;
+      left: -1px;
+      bottom: -100px;
+      width: 82vw;
+      height: 20vh;
+    }
+    #tags{
+      position: relative;
+      right: 173px;
+      top: -445px;
+  
+      height: 4vh;
+    }
+    #btnRun{
+      position: relative;
+  right: -210px;
+  top: -443px;
+    }
+  
+  
+  
+  
+  
+  
+    }
